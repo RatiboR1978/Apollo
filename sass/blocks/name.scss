@@ -1,0 +1,118 @@
+.name__title {
+  padding-top: 136px;
+  padding-left: 807px;
+  margin-top: 0;
+  margin-bottom: 31px;
+  position: relative;
+}
+
+.name__title:before {
+  position: absolute;
+  content: '';
+  width: 625px;
+  height: 628px;
+  background: url("../img/photo.png");
+  top: 40px;
+  left: 41px;
+}
+
+.name__title:after {
+  position: absolute;
+  content: '';
+  width: 369px;
+  height: 749px;
+  background: url("../img/pp.png");
+  top: -39px;
+  left: 90px;
+}
+
+.name__text {
+  padding-left: 691px;
+  width: 611px;
+  margin: 0;
+  line-height: 25px;
+}
+
+.name__text-first {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.name__text-first:before {
+  position: absolute;
+  content: '';
+  width: 80px;
+  height: 1px;
+  background-color: black;
+  top: -61px;
+  left: 690px;
+}
+
+.name__text-last {
+  margin-bottom: 69px;
+}
+
+.name__social {
+  padding-left: 691px;
+  padding-bottom: 107px;
+  margin: 0;
+}
+
+.name__social li {
+  display: inline-block;
+  margin-right: 14px;
+}
+
+.name__social-icon {
+  width: 33px;
+  height: 33px;
+  background-color: #909090;
+  display: block;
+  position: relative;
+  transition-property: background;
+  transition-duration: 1s;
+}
+
+.name__social-icon:hover {
+  background-color: black;
+}
+
+.name__social-f:before {
+  position: absolute;
+  content: '';
+  width: 8px;
+  height: 18px;
+  background: url("../img/f.png");
+  top: 7px;
+  left: 13px;
+}
+
+.name__social-i:before {
+  position: absolute;
+  content: '';
+  width: 18px;
+  height: 18px;
+  background: url("../img/inst.png");
+  top: 8px;
+  left: 8px;
+}
+
+.name__social-t:before {
+  position: absolute;
+  content: '';
+  width: 18px;
+  height: 14px;
+  background: url("../img/twit.png");
+  top: 9px;
+  left: 8px;
+}
+
+.name__social-p:before {
+  position: absolute;
+  content: '';
+  width: 14px;
+  height: 18px;
+  background: url("../img/p.png");
+  top: 8px;
+  left: 10px;
+}
