@@ -1,0 +1,30 @@
+.enim__text {
+  width: 431px;
+}
+
+.enim__wrap {
+  float: left;
+  padding-left: 181px;
+  padding-top: 123px;
+  margin-right: 47px;
+}
+
+.enim__title {
+  margin-bottom: 31px;
+  position: relative;
+}
+
+.enim__title:before {
+  position: absolute;
+  content: '';
+  width: 302px;
+  height: 749px;
+  background: url("../img/l.png");
+  top: -204px;
+  left: -91px;
+}
+
+.enim__img {
+  padding-top: 112px;
+  padding-bottom: 147px;
+}

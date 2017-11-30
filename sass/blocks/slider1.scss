@@ -1,0 +1,22 @@
+.bg-container {
+  background: none;
+  padding-top: 0;
+}
+
+.slider1__wrap {
+  max-width: 1480px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slider1__wrap:before {
+  position: absolute;
+  content: '';
+  width: 440px;
+  height: 750px;
+  background: url("../img/image-O.png");
+  top: 0;
+  left: 0;
+  z-index: 999;
+  opacity: .1;
+}

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+// Default Variables
+
+// Slick icon entity codes outputs the following
+// "\2190" outputs ascii character "←"
+// "\2192" outputs ascii character "→"
+// "\2022" outputs ascii character "•"
+
+$slick-font-path: "./fonts/" !default;
+$slick-font-family: "slick" !default;
+$slick-loader-path: "./" !default;
+$slick-arrow-color: white !default;
+$slick-dot-color: black !default;
+$slick-dot-color-active: $slick-dot-color !default;
+$slick-prev-character: "\2190" !default;
+$slick-next-character: "\2192" !default;
+$slick-dot-character: "\2022" !default;
+$slick-dot-size: 6px !default;
+$slick-opacity-default: 0.75 !default;
+$slick-opacity-on-hover: 1 !default;
+$slick-opacity-not-active: 0.25 !default;
+
+
+/* Arrows */
+
+.slick-prev,
+.slick-next {
+    position: absolute;
+    display: block;
+    height: 75px;
+    width: 75px;
+    line-height: 0px;
+    font-size: 0px;
+    cursor: pointer;
+    background: #ffffff;
+    color: transparent;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.slick-prev {
+    z-index: 999;
+    left: 39px;
+    background: url("../img/prev.jpg");
+    [dir="rtl"] & {
+        left: auto;
+        right: -25px;
+    }
+}
+
+
+.slick-next {
+    right: 41px;
+    background: url("../img/next.jpg");
+    [dir="rtl"] & {
+        left: -25px;
+        right: auto;
+    }
+}
+
+
