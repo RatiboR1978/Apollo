@@ -49,7 +49,7 @@ $(document).ready(function(){
             k = 0;
         }
         $(".slder2__image1 img").attr("src", arrImg[i]);
-        $(".slder2__image2 img").attr("src", arrImg[j]).fadeTo(400, 1);
+        $(".slder2__image2 img").fadeTo(6, 0).attr("src", arrImg[j]).fadeTo(400, 1);
         $(".slder2__image3 img").attr("src", arrImg[k]);
     })
 
