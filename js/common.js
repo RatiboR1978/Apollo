@@ -12,7 +12,7 @@ $(document).ready(function(){
         autoplaySpeed: 4000
     });
 
-    var arrImg = ['../img/slide2-2.jpg', '../img/slide2-1.jpg', '../img/slide2-3.jpg'],
+    var arrImg = ['img/slide2-2.jpg', 'img/slide2-1.jpg', 'img/slide2-3.jpg'],
         j = 1,
         k = 2,
         i = 0;
@@ -49,7 +49,7 @@ $(document).ready(function(){
             k = 0;
         }
         $(".slder2__image1 img").attr("src", arrImg[i]);
-        $(".slder2__image2 img").fadeTo(6, 0).attr("src", arrImg[j]).fadeTo(400, 1);
+        $(".slder2__image2 img").attr("src", arrImg[j]).fadeTo(400, 1);
         $(".slder2__image3 img").attr("src", arrImg[k]);
     })
 
