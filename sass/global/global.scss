@@ -32,7 +32,7 @@ img {
   margin: 35px auto 34px;
   padding-top: 25px;
   background-color: #efefef;
-  @media (min-width: 1500px) {
+  @media (min-width: 1517px) {
     width: 1500px;
     margin: 51px auto 50px;
     padding-top: 39px;
@@ -49,3 +49,16 @@ img {
     display: flex;
     justify-content: center;
   }
+
+  .bt-up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    opacity: .5;
+  }
+
+.bt-up:hover {
+  opacity: 1;
+}
+

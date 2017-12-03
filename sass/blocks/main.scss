@@ -25,9 +25,6 @@
   a:focus:after {
     width: 100%;
   }
-  @media (min-width: 1500px) {
-
-  }
 }
 
 .main__text {
@@ -35,7 +32,7 @@
   padding-left: 69px;
   padding-bottom: 336px;
   position: relative;
-  @media (min-width: 1500px) {
+  @media (min-width: 1517px) {
     padding-left: 179px;
   }
 }
@@ -46,7 +43,7 @@
   margin-top: 0;
   margin-bottom: 22px;
   position: relative;
-  @media (min-width: 1500px) {
+  @media (min-width: 1517px) {
     padding-left: 177px;
   }
 }
@@ -59,7 +56,7 @@
   background: url("../img/a.png");
   top: -44px;
   left: 7px;
-  @media (min-width: 1500px) {
+  @media (min-width: 1517px) {
     height: 749px;
     top: -57px;
   }
@@ -73,7 +70,7 @@
   background: url("../img/main.png");
   top: -4px;
   right: 0;
-  @media (min-width: 1500px) {
+  @media (min-width: 1517px) {
     width: 816px;
     right: 80px;
   }
@@ -87,7 +84,7 @@
   background-color: black;
   top: 135px;
   left: 74px;
-  @media (min-width: 1500px) {
+  @media (min-width: 1517px) {
     left: 184px;
   }
 }

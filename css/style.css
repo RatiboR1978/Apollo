@@ -423,7 +423,7 @@ img {
   margin: 35px auto 34px;
   padding-top: 25px;
   background-color: #efefef; }
-  @media (min-width: 1500px) {
+  @media (min-width: 1517px) {
     .container {
       width: 1500px;
       margin: 51px auto 50px;
@@ -443,6 +443,16 @@ img {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center; }
+
+.bt-up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  opacity: .5; }
+
+.bt-up:hover {
+  opacity: 1; }
 
 /* Slider */
 .slick-slider {
@@ -2954,7 +2964,7 @@ img {
   padding-left: 69px;
   padding-bottom: 336px;
   position: relative; }
-  @media (min-width: 1500px) {
+  @media (min-width: 1517px) {
     .main__text {
       padding-left: 179px; } }
 
@@ -2964,7 +2974,7 @@ img {
   margin-top: 0;
   margin-bottom: 22px;
   position: relative; }
-  @media (min-width: 1500px) {
+  @media (min-width: 1517px) {
     .main__title {
       padding-left: 177px; } }
 
@@ -2976,7 +2986,7 @@ img {
   background: url("../img/a.png");
   top: -44px;
   left: 7px; }
-  @media (min-width: 1500px) {
+  @media (min-width: 1517px) {
     .main__title:after {
       height: 749px;
       top: -57px; } }
@@ -2989,7 +2999,7 @@ img {
   background: url("../img/main.png");
   top: -4px;
   right: 0; }
-  @media (min-width: 1500px) {
+  @media (min-width: 1517px) {
     .main__title:before {
       width: 816px;
       right: 80px; } }
@@ -3002,7 +3012,7 @@ img {
   background-color: black;
   top: 135px;
   left: 74px; }
-  @media (min-width: 1500px) {
+  @media (min-width: 1517px) {
     .main__text:after {
       left: 184px; } }
 
@@ -3012,7 +3022,7 @@ img {
   margin-top: 0;
   margin-bottom: 31px;
   position: relative; }
-  @media (min-width: 1500px) {
+  @media (min-width: 1517px) {
     .name__title {
       padding-left: 807px; } }
 
@@ -3024,7 +3034,7 @@ img {
   background: url("../img/photo1000.png");
   top: 40px;
   left: 41px; }
-  @media (min-width: 1500px) {
+  @media (min-width: 1517px) {
     .name__title:before {
       width: 625px;
       height: 628px;
@@ -3040,7 +3050,7 @@ img {
   background: url("../img/pp.png");
   top: -24px;
   left: 90px; }
-  @media (min-width: 1500px) {
+  @media (min-width: 1517px) {
     .name__title:after {
       height: 749px;
       top: -39px; } }
@@ -3049,7 +3059,7 @@ img {
   padding-left: 448px;
   width: 527px;
   margin: 0; }
-  @media (min-width: 1500px) {
+  @media (min-width: 1517px) {
     .name__text {
       width: 611px;
       padding-left: 691px; } }
@@ -3066,7 +3076,7 @@ img {
   background-color: black;
   top: -61px;
   left: 450px; }
-  @media (min-width: 1500px) {
+  @media (min-width: 1517px) {
     .name__text-first:before {
       left: 690px; } }
 
@@ -3077,7 +3087,7 @@ img {
   padding-left: 453px;
   padding-bottom: 82px;
   margin: 0; }
-  @media (min-width: 1500px) {
+  @media (min-width: 1517px) {
     .name__social {
       padding-left: 691px;
       padding-bottom: 107px; } }
@@ -3174,7 +3184,7 @@ img {
   padding-top: 123px;
   margin-right: 16px;
   margin-top: 0; }
-  @media (min-width: 1500px) {
+  @media (min-width: 1517px) {
     .enim__block-text {
       padding-left: 181px;
       margin-right: 47px; } }
@@ -3191,7 +3201,7 @@ img {
   background: url("../img/l.png");
   top: -190px;
   left: -32px; }
-  @media (min-width: 1500px) {
+  @media (min-width: 1517px) {
     .enim__title:before {
       background: url("../img/l.png");
       top: -204px;
@@ -3204,7 +3214,7 @@ img {
   padding-top: 112px;
   padding-bottom: 177px;
   background: url("../img/img1000.jpg") no-repeat; }
-  @media (min-width: 1500px) {
+  @media (min-width: 1517px) {
     .enim__img {
       margin-top: 114px;
       width: 752px;
@@ -3218,7 +3228,7 @@ img {
   padding-top: 109px;
   padding-bottom: 192px;
   position: relative; }
-  @media (min-width: 1500px) {
+  @media (min-width: 1517px) {
     .slider2__wrap {
       width: 1322px;
       padding-bottom: 149px; } }
@@ -3232,7 +3242,7 @@ img {
   top: -26px;
   left: 0;
   z-index: 8; }
-  @media (min-width: 1500px) {
+  @media (min-width: 1517px) {
     .slider2__wrap:after {
       top: -41px;
       left: 0; } }
