@@ -28,10 +28,15 @@ img {
 }
 
 .container {
-  width: 1500px;
-  margin: 51px auto 50px;
-  padding-top: 39px;
+  width: 1000px;
+  margin: 35px auto 34px;
+  padding-top: 25px;
   background-color: #efefef;
+  @media (min-width: 1500px) {
+    width: 1500px;
+    margin: 51px auto 50px;
+    padding-top: 39px;
+  }
 }
 
   .clearfix:after {

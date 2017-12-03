@@ -1,9 +1,13 @@
 .slider2__wrap {
-  width: 1322px;
+  width: 903px;
   margin: 0 auto;
   padding-top: 109px;
-  padding-bottom: 149px;
+  padding-bottom: 192px;
   position: relative;
+  @media (min-width: 1500px) {
+    width: 1322px;
+    padding-bottom: 149px;
+  }
 }
 
 .slider2__wrap:after {
@@ -12,9 +16,13 @@
   width: 302px;
   height: 749px;
   background: url("../img/l.png");
-  top: -41px;
+  top: -26px;
   left: 0;
   z-index: 8;
+  @media (min-width: 1500px) {
+    top: -41px;
+    left: 0;
+  }
 }
 
 .slider__prev {

@@ -12,11 +12,15 @@
 .slider1__wrap:before {
   position: absolute;
   content: '';
-  width: 440px;
+  width: 296px;
   height: 750px;
-  background: url("../img/image-O1.png");
+  background: url("../img/image-O-1000.png");
   top: 0;
   left: 0;
   z-index: 999;
   opacity: .1;
+  @media (min-width: 1500px) {
+    width: 440px;
+    background: url("../img/image-O1.png");
+  }
 }
